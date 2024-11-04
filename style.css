@@ -1,11 +1,11 @@
 /* navbar */
 
-header {
+.section1 {
   background: url("image/wallpaper.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 85vh;
 }
 .logo {
   text-decoration: none;
@@ -71,11 +71,15 @@ header {
 /* --Search bar Form Section-- */
 
 /* -----  */
-
+.section1Container {
+  margin-top: -9vh;
+  padding-top: 85vh;
+}
 .formSection {
   border-radius: 10px;
   background-color: #041d2bbf;
-  margin-top: 50vh;
+  margin-top: -20vh;
+  margin-bottom: 22px;
 }
 .formSection label {
   font-family: "Tiro Tamil";
@@ -136,6 +140,7 @@ header {
 .imageSection {
   background: #dbe9f2;
   height: 640px;
+  overflow: hidden;
 }
 .image1 {
   height: 550px;
