@@ -3,9 +3,10 @@
 header {
   background: url("image/wallpaper.jpeg");
   background-position: center;
-  background-size: cover;
+  background-size: 115%;
   background-repeat: no-repeat;
   filter: brightness(80%);
+  background-position: 10% 70%;
   height: 80vh;
 }
 .logo {
@@ -29,7 +30,7 @@ header {
   font-family: "Tiro Tamil", serif;
   border-radius: 20px;
   border: 2px solid white;
-  padding: 4px 24px;
+  padding: 2px 24px;
   text-decoration: none;
   color: white;
 }
@@ -66,7 +67,7 @@ header {
 }
 .arrowLogoSize {
   width: 36px;
-  height: 20px;
+  height: 16px;
 }
 
 /* --Search bar Form Section-- */
