@@ -183,46 +183,84 @@ header {
   font-size: 20px;
 }
 
-/* grid image  */
+/* grid image section  */
+
+.grid_container {
+  padding: 50px 100px;
+}
+.grid_container h1 {
+  font-size: 48px;
+}
 
 .imageContainer {
   height: 380px;
-  width: 250px;
-  border: 2px;
+  width: 100%;
+  max-width: 250px;
   border-radius: 15px;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.5s ease;
-  margin-bottom: 50px;
-}
-.imageContainer:hover {
-  background-color: rgb(16, 17, 17);
-  box-shadow: 0 8px 16px rgba(0, 0, 255, 0.2);
-  transform: scale(1.08);
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #093d62;
 }
 
-.propertyConainer {
-  height: 613px;
+/* Hover Effect */
+.imageContainer:hover {
+  background-color: #c8f5ff;
+  color: #093d62;
+  transform: scale(1.05);
 }
 
 .imageSize {
-  height: 230px;
-  width: 220px;
-  transition: all 0.2s ease-in-out;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 15px;
 }
-.imazeSize:hover {
-  /* background-color: rgb(15, 15, 15); */
-  transform: scale(1.3);
+
+/* Scale image on hover */
+.imageContainer:hover .imageSize {
+  transform: scale(1.15);
+}
+
+/* Text content styling */
+.textContent {
+  color: #093d62;
 }
 
 .imageText {
-  margin-top: -45px;
-  margin-left: 15px;
-  color: white;
-  font-size: 28px;
-  font-weight: 400;
-  font-family: "Shanti";
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: -40px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: "Shanti", sans-serif;
+  color: #fff;
+  opacity: 0.9;
 }
+
+.imageSubtext {
+  font-size: 16px;
+  margin: 20px 0px 0px;
+  text-align: left;
+  font-family: "Tiro Tamil", sans-serif;
+  color: #093d62;
+  line-height: 24px;
+}
+
+.containerParagraph {
+  font-size: 11px;
+  margin-top: 2px;
+  text-align: left;
+  color: #093d62;
+  font-family: "Tiro Tamil", sans-serif;
+}
+
+/*------------------------------------------ neon background ---------------------------------------------- */
 
 .neonBackground {
   background: url("Image/neon-background-image.jpg") rgba(0, 0, 0, 0.3);
