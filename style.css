@@ -1,11 +1,18 @@
 /* navbar */
 
 header {
-  background: url("image/wallpaper.jpeg") rgba(0, 0, 0, 0.3);
+  background: url("image/wallpaper.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
+  filter: brightness(80%);
+  height: 80vh;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 3px 30px;
 }
 
 .navtext {
@@ -16,10 +23,29 @@ header {
 .textInside {
   color: white;
 }
+.GetTheApp {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Tiro Tamil", serif;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 4px 24px;
+  text-decoration: none;
+  color: white;
+}
+.signUpFont:hover {
+  background-color: #9ee4ea;
+  color: #093d62;
+}
 .signUpFont {
   font-size: 20px;
   font-weight: 300;
   font-family: "Tiro Tamil", serif;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 4px 24px;
+  text-decoration: none;
+  color: white;
 }
 .welcomeSection1 {
   padding-top: 20%;
@@ -39,49 +65,18 @@ header {
   font-weight: 500;
 }
 .arrowLogoSize {
-  width: 30px;
-  height: 15px;
+  width: 36px;
+  height: 20px;
 }
 
 /* --Search bar Form Section-- */
-
-/* -------  */
-.newSearchBox {
-  display: flex;
-  justify-content: space-evenly;
-  border-radius: 10px;
-  background-color: #041d2bbf;
-  padding: 24px;
-  margin: 0px 120px;
-  width: 83vw;
-}
-.newSearchBox div {
-  margin-right: 10px;
-}
-.newSearchBox label {
-  color: white;
-  font-family: "Tiro Tamil";
-  padding-bottom: 5px;
-}
-.formDesign1 {
-  width: 16em;
-}
-.formDesign2 {
-  width: 12em;
-}
-.formDesign3 {
-  width: 12em;
-}
-.formDesign4 {
-  width: 10em;
-}
 
 /* -----  */
 
 .formSection {
   border-radius: 10px;
   background-color: #041d2bbf;
-  margin-top: 55vh;
+  margin-top: 50vh;
 }
 .formSection label {
   font-family: "Tiro Tamil";
@@ -109,20 +104,20 @@ header {
 .inputImageSize {
   background-position: 10px center;
   background-repeat: no-repeat;
-  padding-left: 20px;
+  padding-left: 32px;
   background-color: #042f51;
   color: white;
 }
 .inputImageSize::placeholder {
   color: white;
-  padding-left: 15px;
+  padding-left: 5px;
   font-size: 10px;
   font-family: "Tiro Tamil";
   font-weight: 300;
 }
 
 .searchBtnBg {
-  height: 117px;
+  height: auto;
   background-color: #0862a3;
   border-radius: 10px;
   border: none;
@@ -257,7 +252,6 @@ header {
   margin-top: 2px;
   text-align: left;
   color: #093d62;
-  font-family: "Tiro Tamil", sans-serif;
 }
 
 /*------------------------------------------ neon background ---------------------------------------------- */
@@ -310,7 +304,6 @@ header {
   margin-right: 16px;
 }
 .spanText {
-  margin-left: 100px;
   font-size: 16px;
   font-weight: 500;
   color: #093d62;
